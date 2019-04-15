@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Redstage
+ *
+ * @category    Redstage
+ * @package     Redstage_Banner
+ */
+
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Redstage_Banner::redstage_banner" title="Redstage Banner" module="Redstage_Banner" sortOrder="100" parent="Magento_Backend::content" action="redstage_banner/banner/index" resource="Redstage_Banner::redstage_banner"/>
+    </menu>
+</config>

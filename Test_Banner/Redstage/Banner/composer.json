@@ -1,0 +1,22 @@
+{
+    "name": "redstage/module-banner",
+    "description": "Redstage - Banner Module Test",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "hm.cantero@gmail.com",
+            "name": "Martin Cantero"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Redstage\\Banner\\": ""
+        }
+    }
+}
